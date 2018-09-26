@@ -49,7 +49,7 @@ public class SchuelerBL {
         sb.add(s1);
         sb.add(s2);
         
-        File f = new File("./data.csv");
+        File f = new File("./data.bin");
         try{
             sb.save(f);
             sb.load(f);
