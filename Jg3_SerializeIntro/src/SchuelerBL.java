@@ -16,4 +16,7 @@ public class SchuelerBL {
     public void load(File f){
         
     }
+    public static void main(String[] args) {
+        
+    }
 }
